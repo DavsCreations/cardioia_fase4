@@ -192,9 +192,7 @@ notebooks/cardioia_fase4_visao_computacional.ipynb
 
 ## Acesso ao Notebook no Google Colab
 
-O notebook principal também pode ser acessado diretamente pelo Google Colab:
-
-[Abrir notebook no Google Colab](https://colab.research.google.com/drive/1wm3B0_XvOCIKn7GGCC4TRhJUKlHDGeMV?usp=sharing)
+[![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wm3B0_XvOCIKn7GGCC4TRhJUKlHDGeMV?usp=sharing)
 
 Esse notebook contém:
 
