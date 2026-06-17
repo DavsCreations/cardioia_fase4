@@ -83,7 +83,7 @@ O objetivo dessa etapa foi padronizar as imagens para permitir o treinamento cor
 Relatório correspondente:
 
 ```text
-docs/relatorio_pre_processamento.md
+docs/relatorio_pre_processamento.pdf
 ```
 
 ---
@@ -118,7 +118,7 @@ Essa comparação permitiu observar as vantagens e limitações de cada abordage
 Relatório correspondente:
 
 ```text
-docs/relatorio_cnn_transfer_learning.md
+docs/relatorio_cnn_transfer_learning.pdf
 ```
 
 ---
@@ -165,8 +165,8 @@ CARDIOIA-VISAO-COMPUTACIONAL
 │   └── cardioia_fase4_visao_computacional.ipynb
 │
 ├── docs
-│   ├── relatorio_pre_processamento.md
-│   └── relatorio_cnn_transfer_learning.md
+│   ├── relatorio_pre_processamento.pdf
+│   └── relatorio_cnn_transfer_learning.pdf
 │
 ├── assets
 │   ├── logo-fiap.png
