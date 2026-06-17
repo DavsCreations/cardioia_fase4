@@ -24,7 +24,7 @@
 
 ## Sobre o Projeto
 
-O **CardioIA** é um protótipo acadêmico desenvolvido na Graduação ON em Inteligência Artificial da FIAP, com o objetivo de aplicar técnicas de **Visão Computacional** e **Deep Learning** na análise de imagens médicas simuladas.
+O **CardioIA** é um protótipo acadêmico desenvolvido na Graduação ON em Inteligência Artificial da FIAP, com o objetivo de aplicar **Visão Computacional** e **Inteligência Artificial** na análise de exames cardiacos.
 
 Nesta Fase 4, o projeto avança para a classificação de imagens de eletrocardiogramas, utilizando:
 
@@ -58,6 +58,10 @@ Foi utilizado um dataset público contendo imagens de eletrocardiogramas organiz
 * ECG Images of Patient that have History of MI;
 * ECG Images of Patient that have Abnormal Heartbeat;
 * Normal Person ECG Images.
+
+Fonte do dataset:
+
+https://www.kaggle.com/datasets/akhileshrai003/heartbeat
 
 As imagens foram organizadas em pastas por classe, permitindo o carregamento automático dos dados pelo TensorFlow/Keras.
 
@@ -102,11 +106,25 @@ A arquitetura da CNN foi composta por:
 
 O modelo foi treinado com as imagens pré-processadas e avaliado por meio de métricas de classificação.
 
+Após o treinamento e avaliação, o modelo apresentou aproximadamente:
+
+Acurácia no teste: 25,8%
+
+O resultado demonstrou limitações da arquitetura simples utilizada para este conjunto de imagens médicas.
+
 ---
 
 ## Parte 3 - Transfer Learning
 
 Também foi implementada uma abordagem utilizando **Transfer Learning** com o modelo pré-treinado **MobileNetV2**.
+
+Essa técnica permite reutilizar conhecimentos previamente aprendidos em grandes bases de imagens, adaptando o modelo para um novo problema.
+
+Resultados obtidos:
+
+Acurácia no teste: 84,8%
+
+O desempenho foi significativamente superior ao obtido pela CNN construída do zero.
 
 O objetivo foi comparar duas estratégias:
 
@@ -114,6 +132,8 @@ O objetivo foi comparar duas estratégias:
 * Um modelo pré-treinado adaptado para o problema de classificação de imagens de ECG.
 
 Essa comparação permitiu observar as vantagens e limitações de cada abordagem dentro do contexto do projeto.
+
+Os resultados demonstraram que o Transfer Learning apresentou melhor capacidade de generalização para o conjunto de imagens utilizado no projeto.
 
 Relatório correspondente:
 
@@ -269,6 +289,10 @@ O sistema deve ser compreendido apenas como uma demonstração educacional de co
 ## Conclusão
 
 A Fase 4 do CardioIA permitiu aplicar conceitos de Visão Computacional, Deep Learning, CNN e Transfer Learning em um contexto relacionado à saúde cardiovascular.
+
+O projeto permitiu aplicar conceitos de Visão Computacional, Deep Learning, Redes Neurais Convolucionais e Transfer Learning em um contexto relacionado à análise de exames cardíacos.
+
+Os resultados mostraram que a abordagem utilizando Transfer Learning com MobileNetV2 apresentou desempenho superior à CNN construída do zero, demonstrando a importância do reaproveitamento de modelos pré-treinados em problemas de classificação de imagens médicas.
 
 O projeto demonstrou, de forma prática, como imagens médicas simuladas podem ser processadas, classificadas e apresentadas em um protótipo de apoio à decisão.
 
