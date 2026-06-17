@@ -163,14 +163,13 @@ Foi desenvolvido um protótipo simples no Google Colab para simular o funcioname
 
 O protótipo permite:
 
-1. Selecionar uma imagem de ECG;
-2. Realizar o pré-processamento da imagem;
-3. Executar a predição com o modelo treinado;
-4. Exibir a classe prevista;
-5. Exibir a classe real;
-6. Exibir o nível de confiança da predição.
+1. Receber uma imagem de ECG;
+2. Processar a imagem utilizando o modelo MobileNetV2;
+3. Identificar a classe prevista;
+4. Exibir a classe real;
+5. Exibir o nível de confiança da predição.
 
-O objetivo do protótipo é tornar a interpretação dos resultados mais clara e acessível.
+Essa funcionalidade simula um Assistente Cardiológico Virtual capaz de apoiar a interpretação inicial de exames.
 
 ---
 
